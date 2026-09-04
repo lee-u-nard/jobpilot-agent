@@ -1,7 +1,7 @@
 import json
 from anthropic import Anthropic
 from app.config import Config
-from tools import TOOL_SCHEMAS, TOOL_FUNCTIONS
+from app.tools import TOOL_SCHEMAS, TOOL_FUNCTIONS
 
 
 client = Anthropic(api_key=Config.ANTHROPIC_API_KEY)
